@@ -1,0 +1,196 @@
+
+/* Best Sellers Section */
+.best-sellers {
+  text-align: center;
+  padding: 50px 20px;
+  
+   /* Overall section background */
+}
+
+.section-title {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: rgb(142,156,140);
+}
+
+/* Slick Slider Container */
+.product-slider {
+  width: 80%;
+  margin: auto;
+}
+
+/* Individual Product Style */
+.product {
+  text-align: center;
+  padding: 10px;
+  transition: transform 0.3s ease-in-out;
+  background: transparent; /* Remove background */
+  box-shadow: none; /* Remove shadow */
+  margin-top:40px;
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+/* Product Image */
+.product img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Product Name */
+h3 {
+  font-size: 16px;
+  margin: 5px 0;
+  color:rgb(142,156,140);
+}
+
+/* Product Price */
+.price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ff5733;
+}
+
+.price del {
+  font-size: 14px;
+  color: gray;
+}
+/*best seller end*/
+
+
+/* Shop by Concern Section */
+.shop-by-concern {
+    text-align: center;
+    padding: 50px 20px;
+    
+    
+}
+.section-title {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ff6600;
+    margin-bottom: 50px;
+}
+
+/* Concern Container (Grid Layout) */
+.concern-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Individual Concern Box */
+.concern-item {
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.concern-item:hover {
+    transform: scale(1.05);
+}
+
+/* Concern Image */
+.concern-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Concern Heading */
+.concern-item h3 {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Concern Description */
+.concern-item p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Shop Now Button */
+.shop-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.shop-btn:hover {
+    background: #fa8e46;
+}
+@media screen and (max-width: 768px) {
+  .concern-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* 2 Columns */
+      gap: 10px;
+  }
+
+  .concern-item {
+      width: 90%;  /* Box Width Reduce */
+      padding: 10px; /* Inner Spacing Reduce */
+  }
+
+  .concern-item img {
+      border-radius: 8px;
+  }
+
+  .concern-item h3 {
+      font-size: 16px; /* Text Size Small */
+  }
+
+  .concern-item p {
+      font-size: 12px; /* Description Small */
+  }
+
+  .shop-btn {
+      padding: 8px 12px; /* Button Small */
+      font-size: 12px;
+  }
+}
+.story-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 80px 20px;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s ease-out;
+}
+
+.content {
+  max-width: 800px;
+}
+
+.story-section img, .story-section video {
+  width: 100%;
+  max-width: 500px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+

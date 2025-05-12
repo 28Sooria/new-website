@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang=en>
+  <head>
+    <meta charset=UTF-8 />
+    <meta name=viewport content="width=device-width, initial-scale=1.0" />
+    <title>Rudra Body Care</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel=stylesheet href=style.css />
+    <link rel=stylesheet href=style3.css />
+    <link rel=stylesheet href=style4.css />
+    <link rel=stylesheet href=style5.css />
+    <link rel=stylesheet href=style2.css />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- In <head> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+<!-- In HTML -->
+<div class="menu-icon" onclick="toggleMenu()"><i class="fas fa-bars"></i></div>
+<li class="close-btn" onclick="toggleMenu()"><i class="fas fa-times"></i></li>
+
+    </head>
+  
+  
+   
+
+    
+    
+      
+ 
+  <header class="navbar-container">
+    <a href="#" class="logo1">
+      <img src="image/logo rudra.png" alt="company logo" width="70">
+    </a>
+    <nav id="navbar">
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="./shop.html">Bath & Body</a></li>
+      <!-- <li><a href="">Skin</a></li>
+      <li><a href="">Hair</a></li> -->
+      <li><a href="./blog.html">Holistic Well-being</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+      <li class="close-btn" onclick="toggleMenu()">✖</li>
+    </nav>
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+  </header>
+
+  
+    
+    <body>
+      <section class="hero-swiper">
+      
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/image.png" alt="Image 3" />
+            </div>
+          </div>
+        </div>
+      
+        <!-- Hero Content -->
+        <div id="hero">
+          <h4>Healthy Skin</h4>
+          <h2>With Our Skin-Care Products</h2>
+          <h1>Rudra Beauty</h1>
+          <p>Up to 40% off on our products!</p>
+          <div class="container">
+            <a href="shop.html" class="button">
+              <div class="button__line"></div>
+              <span class="button__text">SHOP</span>
+              <div class="button__drow1"></div>
+              <div class="button__drow2"></div>
+            </a>
+          </div>
+        </div>
+      </section>
+      
+        
+
+ <section class="category-section">
+  <h2>Our Categories</h2>
+  <div class="category-container">
+    <div class="category">
+      <img src="image/soap.jpg" alt="Soap" class="img" onclick="window.location.href='orange soap.html'">
+      <p>Bath</p>
+    </div>
+    <div class="category">
+      <img src="image/shampoo.jpg" alt="Shampoo" class="img" onclick="window.location.href='orange soap.html'">
+      <p>Hair</p>
+    </div>
+    <div class="category">
+      <img src="image/shampoo1.jpg" alt="Hair Oil" class="img" onclick="window.location.href='orange soap.html'">
+      <p>Skin</p>
+    </div>
+    <div class="category">
+      <img src="image/conditioner.jpg" alt="Conditioner" class="img" onclick="window.location.href='orange soap.html'">
+      <p>Face</p>
+    </div>
+    <div class="category">
+      <img src="image/shampoo1.jpg" alt="Hair Oil" class="img" onclick="window.location.href='orange soap.html'">
+      <p>Lip</p>
+    </div>
+  </div>
+</section>
+
+
+    
+    
+    <section id="product1" class="section-p1">
+      <section class="products">
+          <div class="filter-buttons">
+              <button class="filter-btn active" onclick="filterProducts('face-care', this)">Face Care</button>
+              <button class="filter-btn" onclick="filterProducts('hair-care', this)">Hair Care</button>
+              <button class="filter-btn" onclick="filterProducts('body-care', this)">Body Care</button>
+              <button id="viewAllBtn" onclick="viewAllProducts()">View All</button>
+          </div>
+  
+      <p>Beauty Collection New Modern Design</p>
+      <div class="product-container">
+        <div class="product">
+       <img src="image/orange 1.jpg"  alt=""class="product-img"  onclick ="window.location.href='orange soap.html'">
+       <div class="product-title">Orange Bathing Bar</div>
+      </div>
+   
+   <div class="product">
+     <img src="image/cucumber 1.jpg" alt="hair oil"class="product-img"  onclick ="window.location.href='cucumber soap.html'">
+     <div class="product-title">Cucumber Bathing Bar</div>
+     
+   </div>
+   <div class="product">
+     <img src="image/beetroot 1.jpg" alt="hair oil"class="product-img"  onclick ="window.location.href='beetroot soap.html'">
+     
+     <div class="product-title">Beetroot Bathing Bar</div>
+    </div>
+   
+   <div class="product">
+     <img src="image/saffron 1.jpg" alt="hair oil"class="product-img"  onclick ="window.location.href='saffron soap.html'">
+     <div class="product-title">Saffron Bathing Bar</div>
+     
+    </div>
+   
+   <div class="product">
+     <img src="image/rose 1.jpg" alt="hair oil" class="product-img"  onclick ="window.location.href='saffron soap.html'">
+     <div class="product-title">Rose Bathing Bar</div>
+    
+   </div>
+   <div class="product">
+    <img src="image/rose 1.jpg" alt="hair oil" class="product-img"  onclick ="window.location.href='saffron soap.html'">
+    <div class="product-title">Rose Bathing Bar</div>
+   
+   </div>
+   <div class="product">
+    <img src="image/rose 1.jpg" alt="hair oil" class="product-img"  onclick ="window.location.href='saffron soap.html'">
+    <div class="product-title">Rose Bathing Bar</div>
+   
+   </div>
+   <div class="product">
+    <img src="image/rose 1.jpg" alt="hair oil" class="product-img"  onclick ="window.location.href='saffron soap.html'">
+    <div class="product-title">Rose Bathing Bar</div>
+   </div>
+   </section>   
+
+  <section id="banner" class="section-m1">
+      <h4>Services</h4>
+      <h2>Up to <span>40 % Off</span> - All Skin Care Products</h2>
+      <button class="normal">Explore More</button>
+      
+
+ 
+      
+  </section>
+    <section class="fill-banner banner-2-bg">
+      <div class=container>
+        <div class=row>
+        <div class="col-12 col-md-10 col-xl-5">
+            <h2> Best Skin <br class="d-none d-xl-inline-block" />Care Steps </h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque officiis corporis dicta eius content at the specific all of skin product at the same time used to the this product at the mainly used
+              content at the several meaning in the evaluation skin care products in the made with handmade care and self care products and the mostly evaluation and this product content same trending.eius at the content ourselves to be our products are handmade .several product are self love and handcrafted with emotional touch.creative at the several  </p>
+            <a href="holistic.html" class=btn>Tips and Routine</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+   
+<footer class="footer">
+  <div class="container-1">
+    <div class="row">
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Our Services</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Affiliate Program</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Get Help</h4>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Shipping</a></li>
+          <li><a href="#">Returns</a></li>
+          <li><a href="#">Order Status</a></li>
+          <li><a href="#">Payment Options</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Follow Us</h4>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f" aria-label="Facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter" aria-label="Twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram" aria-label="Instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in" aria-label="LinkedIn"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="copyright">
+  © 2025 by <a href="#">Nurturing Beauty And Care</a>
+</div>
+
+
+
+
+
+
+    <script src=jqury.min.js></script>
+    <script src=script1.js></script>
+    <script src=main.js></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <div id=goTop class=goTop></div>
+    
+    <script>
+      $(function() {
+        $(window).scroll(function() {
+          if ($(document).scrollTop() > 60) {
+            $(".main-nav").addClass("sticky")
+          } else {
+            $(".main-nav").removeClass("sticky")
+          }
+        });
+        $("#goTop").click(function() {
+          $("html,body").animate({
+            scrollTop: 0
+          }, "slow");
+          return false
+        });
+        $(window).scroll(function() {
+          if ($(this).scrollTop() > 300) {
+            $("#goTop").addClass("active")
+          } else {
+            $("#goTop").removeClass("active");
+            return false
+          }
+        }).scroll()
+      });
+
+
+
+      function toggleMenu() {
+    const navbar = document.getElementById('navbar');
+    navbar.classList.toggle('active');
+  }
+    </script>
+  </body>
+</html>

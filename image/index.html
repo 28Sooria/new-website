@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rudra Body Care</title>
+        <link rel="icon" type="image/x-icon" href="/img/logoo_1_100x76-removebg-preview.png">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <script src="https://kit.fontawesome.com/f0669a497e.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style1.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"/>
+    </head>
+    <body>
+<header>
+        <div class="top-banner">
+            🚚 Order Above ₹999 & Enjoy <span class="highlight">Free Shipping</span> on Prepaid Orders  
+            </div>
+        
+        <div class="top-header">
+            <div class="left-icons">
+              <img src="image/menu.svg" alt="menu icon" id="menu-icon">
+                          
+              <div class="search-icon">
+              <img src="image/search.svg"alt="serch icon">
+              </div>
+              <input type="text"id="search-bar"placeholder="Search..">
+            
+            </div>
+            
+        
+            <div class="logo">
+                <h4>Rudra Body Care</h4>
+            </div>
+        
+            <div class="right-icons">
+              <img src="image/user.svg" alt="user icon"> 
+              <img src="image/cart.svg" alt="cart icon"></i> 
+            </div>
+        </div>
+        
+        
+        
+        
+                <ul id="navbar">
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="blog.html">Holistic Skincare</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    
+                </ul>
+
+                
+
+
+            </div>
+            
+       
+       
+       
+       
+    
+    </header>
+        
+        <section class="hero-swiper">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <!-- First Slide - Video -->
+                    <div class="swiper-slide">
+                        <video autoplay muted loop>
+                            <source src="image/bg-video.mp4" type="video/mp4">
+                        </video>
+                    </div>
+        
+                    <!-- Second Slide - Image -->
+                    <div class="swiper-slide">
+                        <img src="image/bath.jpg" alt="Image 2">
+                    </div>
+        
+                    <!-- Third Slide - Video -->
+                    <div class="swiper-slide">
+                        <video autoplay muted loop>
+                            <source src="image/video2.mp4" type="video/mp4">
+                        </video>
+                    </div>
+        
+                    <!-- Fourth Slide - Image -->
+                    <div class="swiper-slide">
+                        <img src="img/image.png" alt="Image 3">
+                    </div>
+                    
+                </div>
+                
+                
+            </div>
+        
+        
+            <!-- Hero Content -->
+            <section id="hero">
+                <h4>Healthy Skin</h4>
+                <h2>With Our Skin-Care Products</h2>
+                <h1>Rudra Beauty</h1>
+                <p>Up to 40% off on our products!</p>
+                <div class="container">
+                    <a href="shop.html" class="button">
+                        <div class="button__line"></div>
+                        <span class="button__text">SHOP</span>
+                        <div class="button__drow1"></div>
+                        <div class="button__drow2"></div>
+                    </a>
+                </div>
+                
+            </section>
+        </section>
+
+
+        <section class="category-section">
+            <h2>Our Categories</h2>
+            <div class="category-container">
+              <div class="category">
+                <img src="image/soap.jpg" alt="Soap">
+                <p>Soap</p>
+              </div>
+              <div class="category">
+                <img src="image/shampoo.jpg" alt="Shampoo">
+                <p>Conditioner</p>
+              </div>
+              <div class="category">
+                <img src="image/shampoo1.jpg" alt="Hair Oil">
+                <p>Shampoo</p>
+              </div>
+              <div class="category">
+                <img src="image/conditioner.jpg" alt="Hair Oil">
+                <p>Skin </p>
+              </div>
+              </div>
+            </section>
+
+        <section id="product1" class="section-p1">
+            <section class="products">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" onclick="filterProducts('face-care', this)">Face Care</button>
+                    <button class="filter-btn" onclick="filterProducts('hair-care', this)">Hair Care</button>
+                    <button class="filter-btn" onclick="filterProducts('body-care', this)">Body Care</button>
+                    <button id="viewAllBtn" onclick="viewAllProducts()">View All</button>
+                </div>
+        
+            <p>Beauty Collection New Modern Design</p>
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="img/products/p1.jpg" alt="" class="product-img"  onclick ="window.location.href='sproduct.html'">
+                    <div class="des">
+                        <span>SkinCeuticals</span>
+                        <h5 class="product-title">Skinceuticals Blemish + Age Defense</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="price">$95</h4>
+                    </div>
+                    <i class="fa-solid fa-basket-shopping add-cart"></i>
+                </div>
+                <div class="pro">
+                    <img src="img/products/p2.jpg" alt=""  class="product-img" onclick ="window.location.href='sproduct.html'">
+                    <div class="des">
+                        <span>Paula`s Choice</span>
+                        <h5 class="product-title">Calm Rescue & Repair Intensive Moisturizer</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="price">$35</h4>
+                    </div>
+                    <i class="fa-solid fa-basket-shopping add-cart"></i>
+                </div>
+                <div class="pro">
+                    <img src="img/products/p3.jpg" alt=""  class="product-img" onclick ="window.location.href='sproduct.html'">
+                    <div class="des">
+                        <span>Murad.</span>
+                        <h5 class="product-title">Vita-C Glycolic Brightening Serum</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="price">$85</h4>
+                    </div>
+                    <i class="fa-solid fa-basket-shopping add-cart"></i>
+                </div>
+                <div class="pro">
+                    <img src="img/products/p4.jpg" alt=""  class="product-img" onclick ="window.location.href='sproduct.html'">
+                    <div class="des">
+                        <span>Claudalie</span>
+                        <h5 class="product-title">Vinoclean Micellar Cleansing Water</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="price">$15</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-basket-shopping add-cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="img/products/p5.jpg" alt=""  class="product-img" onclick ="window.location.href='sproduct.html'">
+                    <div class="des">
+                        <span>CeraVe</span>
+                        <h5 class="product-title">Smoothing Cleanser</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="price">$15</h4>
+                    </div>
+                    <i class="fa-solid fa-basket-shopping add-cart"></i>
+                </div>
+                <div class="pro">
+                    <img src="img/products/p6.jpg" alt=""  class="product-img" onclick ="window.location.href='sproduct.html'">
+                    <div class="des">
+                        <span>Wild Source</span>
+                        <h5 class="product-title">Wild Source Night Nectar</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="price">$60</h4>
+                    </div>
+                    <i class="fa-solid fa-basket-shopping add-cart"></i>
+                </div>
+                <div class="pro">
+                    <img src="img/products/p7.png" alt=""  class="product-img" onclick ="window.location.href='sproduct.html'">
+                    <div class="des">
+                        <span>Fenty Skin</span>
+                        <h5 class="product-title">Fenty Beauty Hydra Vizor Invisible Moisturizer SPF30</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="price">$95</h4>
+                    </div>
+                    <i class="fa-solid fa-basket-shopping add-cart"></i>
+                </div>
+                <div class="pro">
+                    <img src="img/products/p8.jpg" alt=""  class="product-img" onclick ="window.location.href='sproduct.html'">
+                    <div class="des">
+                        <span>Fresh</span>
+                        <h5 class="product-title">Fresh Soy Face Cleanser</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="price">$55</h4>
+                    </div>
+                    <i class="fa-solid fa-basket-shopping add-cart"></i>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="banner" class="section-m1">
+            <h4>Services</h4>
+            <h2>Up to <span>40 % Off</span> - All Skin Care Products</h2>
+            <button class="normal">Explore More</button>
+
+        </section>
+
+        <section id="product1" class="section-p1">
+            <h2>Featured Products</h2>
+            <p>Beauty Collection New Modern Design</p>
+            <div class="pro-container">
+                <div class="pro" onclick ="window.location.href='sproduct.html'">
+                    <img src="img/new arrivals/p1.jpg" alt="">
+                    <div class="des">
+                        <span>RoC</span>
+                        <h5>RoC Retinol Correxion Line Smoothing Eye Cream</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$20</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="img/new arrivals/p2.jpg" alt="">
+                    <div class="des">
+                        <span>Peter Thomas Roth</span>
+                        <h5>Peter Thomas Roth Instant FIRMx Temporary Eye Tightener</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$40</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="img/new arrivals/p3.jpg" alt="">
+                    <div class="des">
+                        <span>CeraVe</span>
+                        <h5>CeraVe Eye Repair Cream</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$20</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="img/new arrivals/p4.jpg" alt="">
+                    <div class="des">
+                        <span>Dieux</span>
+                        <h5>Dieux Auracle Eye Gel</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$15</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="img/new arrivals/p5.jpg" alt="">
+                    <div class="des">
+                        <span>ILIA</span>
+                        <h5>ILIA Bright Start Activated Eye Cream</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$15</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="img/new arrivals/p6.jpg" alt="">
+                    <div class="des">
+                        <span>The Inkey List</span>
+                        <h5>The Inkey List Caffeine Eye Cream</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$20</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="img/products/p7.png" alt="">
+                    <div class="des">
+                        <span>Fenty Skin</span>
+                        <h5>Fenty Beauty Hydra Vizor Invisible Moisturizer SPF30</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$95</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="img/products/p8.jpg" alt="">
+                    <div class="des">
+                        <span>Fresh</span>
+                        <h5>Fresh Soy Face Cleanser</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$55</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                </div>
+            </div>
+
+        </section>
+        
+
+        <section id="sm-banner" class="section-p1">
+            <div class="banner-box">
+                <h4>Crazy Deals</h4>
+                <h2>Buy 1 get 1 Free</h2>
+                <span>The best skin care products on sale right now</span>
+                <button class="white">Learn More</button>
+            </div>
+            <div class="banner-box2">
+                <h4>Spring/Summer</h4>
+                <h2>Protect your Skin from UV</h2>
+                <span>The best skin care products on sale right now</span>
+                <button class="white">Collection</button>
+            </div>
+        </section>
+
+        <section id="banner3">
+            <div class="banner-box">
+                <h2>Seasonal Sale</h2>
+                <h3>Summer Collection -30% OFF</h3>
+            </div>
+            <div class="banner-box banner-box2">
+                <h2>New Eye Cream Collections</h2>
+                <h3>No more Baggy Eyes!</h3>
+            </div>
+            <div class="banner-box banner-box3">
+                <h2>Best UV Protection</h2>
+                <h3>Protect your Skin from UV with our NEW Products</h3>
+            </div>
+        </section>
+        <section id="banner1" class="section-m1">
+            <h4>Services</h4>
+            <h2>Relaxation & Relief Products</h2>
+            <button class="normal">Explore More</button>
+
+        </section>
+        
+
+        
+       <section id="six-pillars">
+    <h2>The Six Pillars</h2>
+    <div class="pillars-container">
+        <div class="pillar">
+            <img src="image/science.png" alt="Handcrafted with Love">
+            <h4>Science Meets Nature</h4>
+        </div>
+        <div class="pillar">
+            <img src="image/luxury.png" alt="100% Pure">
+            <h4>Eco luxury</h4>
+        </div>
+        <div class="pillar">
+            <img src="image/balance.png" alt="Traditional Recipes">
+            <h4>Balanced For You</h4>
+        </div>
+        <div class="pillar">
+            <img src="image/inte.png" alt="Cruelty-Free">
+            <h4>Ingredient Integrity</h4>
+        </div>
+        <div class="pillar">
+            <img src="image/earth.png" alt="Deyga Family">
+            <h4>Earth Concious</h4>
+        </div>
+        <div class="pillar1">
+            <img src="image/girl.png" alt="Sustainable Products">
+            <h4>Deep And Visible Results</h4>
+        </div>
+    </div>
+</section>
+
+        <footer class="section-p1">
+            <div class="col">
+                <h3>Nurturing Beauty And Care</h3>
+                <h4>Contact</h4>
+                <p><strong>Address: </strong> Street XYZ State Country</p>
+                <p><strong>Phone: </strong> +0123456789</p>
+                <p><strong>Hours: </strong> 09:00-17:00 Mon-Fri</p>
+                <div class="follow">
+                    <h4>Follow Us</h4>
+                    <div class="icon">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-pinterest-p"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="co">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        
+
+        
+        
+
+        
+        </footer>
+        <div class="copyright">
+            <p>© 2025, Nurturing Beauty And Care</p>
+        </div>
+            
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!-- Load Required Plugins -->
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+        <script src="script.js"></script>
+        <script src="js/script1.js"></script>
+        <script src="main.js"></script>
+        <script src="cart.js"></script>
+        <script>
+        var swiper = new Swiper(".mySwiper", {
+            loop: true,
+            autoplay: {
+                delay: 900,
+                disableOnInteraction: false,
+            },
+            effect: "fade", 
+        });
+        </script>
+       
+    </body>
+</html>
