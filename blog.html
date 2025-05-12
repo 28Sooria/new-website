@@ -22,19 +22,22 @@
 
   </head>
   
-<header class="navbar-container">
+ 
+  <header class="navbar-container">
     <a href="#" class="logo1">
       <img src="image/logo rudra.png" alt="company logo" width="70">
     </a>
-    <ul id="navbar">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="shop.html">Bath & Body</a></li>
-      <li><a href="skin.html">Skin</a></li>
-      <li><a href="hair.html">Hair</a></li>
-      <li><a class="active" href="blog.html">Holistic Skincare</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
+    <nav id="navbar">
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="./shop.html">Bath & Body</a></li>
+      <!-- <li><a href="">Skin</a></li>
+      <li><a href="">Hair</a></li> -->
+      <li><a href="./blog.html">Holistic Well-being</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+      <li class="close-btn" onclick="toggleMenu()">✖</li>
+    </nav>
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
   </header>
 
 
@@ -99,46 +102,57 @@
     
             </div>
         </section>
-        <footer class="footer">
-            <div class="container-1">
-              <div class="row">
-                <div class="footer-col">
-                  <h4>company</h4>
-                  <ul>
-                    <li><a href="#">about us</a></li>
-                    <li><a href="#">our services</a></li>
-                    <li><a href="#">privacy policy</a></li>
-                    <li><a href="#">affiliate program</a></li>
-                  </ul>
-                </div>
-                <div class="footer-col">
-                  <h4>get help</h4>
-                  <ul>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">shipping</a></li>
-                    <li><a href="#">returns</a></li>
-                    <li><a href="#">order status</a></li>
-                    <li><a href="#">payment options</a></li>
-                  </ul>
-                </div>
-                
-                <div class="footer-col">
-                  <h4>follow us</h4>
-                  <div class="social-links">
-                    <a href="facebook.com"><i class="fab fa-facebook-f" aria-label="facebook"></i></a>
-                    <a href="#"><i class="fab fa-twitter"aria-label="twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"aria-label="instagram"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"aria-label="linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
+ <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+    <h4>About Us</h4>
+    <p>Your Company offers a range of high-quality body care products designed to enhance your well-being. With a commitment to using natural ingredients, our products are carefully crafted to meet the needs of your skin and body, providing effective solutions for every skin type.</p>
+</div>
+
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="/new-website/shop.html">Bath & Body</a></li>
+                    <li><a href="/new-website//blog.html">Holistic Well-being</a></li>
+                     <li><a href="/new-website/about.html">About</a></li>
+                    <li><a href="/new-website/contact.html">Contact</a></li>
+                </ul>
             </div>
-         </footer>
-       
-       
-          <div class=copyright> © 2025 by <a href="" >Nurturing Beauty And Care</a>
-          </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <ul>
+                    <li>Phone: +91 9876543210</li>
+                    <li>Email: info@yourcompany.com</li>
+                    <li>Address: 123 Business Ave, City, Country</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#" class="social-icon" target="_blank">
+                        <img src="./img/Facebook is one of the most popular social media….jpg" alt="Facebook">
+                    </a>
+                    <a href="#" class="social-icon" target="_blank">
+                        <img src="./img/Twitter X Logo.jpg" alt="Twitter">
+                    </a>
+                    <a href="#" class="social-icon" target="_blank">
+                        <img src="./img/Free Vector _ Instagram icon.jpg" alt="Instagram">
+                    </a>
+                    <a href="#" class="social-icon" target="_blank">
+                        <img src="./img/3d1a3731-6579-4c08-a834-600a38ffb25a.jpg" alt="LinkedIn">
+                    </a>
+                </div>
+            </div>
         </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Your Company. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+
+
           
 
 
@@ -146,5 +160,11 @@
         
         <script src="script1.js"></script>
         <script src="jqury.min.js"></script>
+        <script>
+  function toggleMenu() {
+    const navbar = document.getElementById("navbar");
+    navbar.classList.toggle("active");
+  }
+</script>
 </body>
 </html>
