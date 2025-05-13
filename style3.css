@@ -52,74 +52,110 @@ body {
     
 }
 
+/* Base styles */
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  position: relative;
+  z-index: 1000;
+}
+
+.logo1 img {
+  width: 70px;
+}
 
 #navbar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top:50px;
-    
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  transition: transform 0.3s ease-in-out;
 }
 
 #navbar li {
-    list-style: none;
-    padding: 0 20px;
-    position: relative;
+  list-style: none;
 }
 
-#navbar li a{
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 600;
-    color: #19220f;
-    transition: 0.3s ease;
+#navbar a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
 }
 
-#navbar li a:hover,
-#navbar li a.active {
-    color:#19220f;
+.menu-icon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
 }
 
-#navbar li a.active::after,
-#navbar li a:hover::after {
-    content: "";
-    width: 30%;
-    height: 2px;
-    background: #19220f;
-    position: absolute;
-    bottom: -4px;
-    left: 20px;
+/* Close button inside nav */
+.close-btn {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  position: absolute; /* Positioning it absolutely */
+  top: 10px; /* Distance from the top */
+  right: 10px; /* Distance from the right */
+  margin-bottom: 15px;
 }
 
-#cart-icon[data-quantity="0"]:after {
-    contain: "";
-}
-
-#cart-icon[data-quantity]:after {
-    content: attr(data-quantity);
-    position: absolute;
-    top: -8px;
-    right: -8px;
-    width: 20px;
-    height: 20px;
-    background-color: #FF007F;
-    border-radius: 50%;
-    color: white;
-    font-size: 12px;
-    font-weight: 500;
+/* Mobile styles */
+@media (max-width: 768px) {
+  #navbar {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 80vh; /* Adjusted height (reduced) */
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    transform: translateX(100%); /* hidden off-screen */
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+
+  #navbar.show {
+    transform: translateX(0); /* slide in */
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .close-btn {
+    display: block; /* Show the close button */
+  }
+
+  #navbar li {
+    margin: 15px 0;
+  }
 }
 
-#mobile {
+/* Desktop styles */
+@media (min-width: 769px) {
+  #navbar {
+    display: flex !important;
+    position: static;
+    flex-direction: row;
+    background: none;
+    box-shadow: none;
+    padding: 0;
+    transform: none;
+  }
+
+  .menu-icon {
     display: none;
-    align-items: center;
+  }
+
+  .close-btn {
+    display: none;
+  }
 }
 
-#close {
-    display: none;
-}
 
 
 
