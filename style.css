@@ -846,7 +846,7 @@ ul{
 
 /* footer  */
 footer {
-    background-color: #222;
+    background: linear-gradient(135deg, #b5c7a2, #8e9e8e);
     color: #fff;
     padding: 40px 20px;
     text-align: center;
@@ -880,13 +880,13 @@ footer {
 }
 
 .footer-section a {
-    color: #bbb;
+    color: #ffffff;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .footer-section a:hover {
-    color: #fff;
+    color: #070707;
 }
 
 .social-icons {
@@ -914,8 +914,8 @@ footer {
 }
 
 .footer-bottom p {
-    font-size: 14px;
-    color: #bbb;
+    font-size: 15px;
+    color: #000000;
 }
 
 /* ----------------------------------- */

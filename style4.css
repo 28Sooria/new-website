@@ -17,7 +17,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #f3ffcc;
+background: linear-gradient(135deg, #b5c7a2, #8e9e8e);
   position: relative;
   z-index: 1000;
 }
@@ -74,9 +74,9 @@
     position: fixed;
     top: 0;
     right: 0;
-    height: 100vh;
+    height: 58vh;
     width: 250px;
-    background-color: #f3ffcc; /* light yellow bg */
+ background: linear-gradient(135deg, #b5c7a2, #8e9e8e);
     padding: 20px;
     transform: translateX(100%);
     box-shadow: -2px 0 6px rgba(0, 0, 0, 0.1);
@@ -99,6 +99,7 @@
 
   #navbar li {
     margin: 15px 0;
+    margin-top: 25px;
   }
 }
 
@@ -187,12 +188,10 @@
 /* Category cards */
 .category-card {
   flex: 0 0 auto;
-  background: #fff;
   border-radius: 15px;
-  width: 180px;
-  padding: 15px 10px;
+  width: 150px;
   text-align: center;
-  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+
   scroll-snap-align: start;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   animation: slideFade 0.6s ease forwards;
@@ -201,12 +200,12 @@
 
 .category-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 12px 20px rgba(0,0,0,0.15);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
 }
 
 .category-card img {
-  width: 90px;
-  height: 90px;
+  width: 110px;
+  height: 110px;
   object-fit: cover;
   border-radius: 50%;
   margin-bottom: 12px;
