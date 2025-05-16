@@ -712,6 +712,10 @@ background-size: cover;
   .swiper-container {
     height: 40vh;
   }
+ .single-pro-image img {
+
+  background-color: rebeccapurple;
+ }
 
   .swiper-text {
     font-size: 1.2em;

@@ -1697,6 +1697,18 @@ footer a:hover{
     #newsletter {
         padding: 40px 20px;
     }
+    @media (max-width: 425px) {
+  #MainImg {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    display: block;
+  }
+
+  .single-pro-image {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+}
 
     /*Single Product*/
 

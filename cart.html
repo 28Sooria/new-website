@@ -11,85 +11,141 @@
         <script src="https://kit.fontawesome.com/f0669a497e.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="style.css">
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+            <link rel=stylesheet href=style.css />
+    <link rel=stylesheet href=style3.css />
+    <link rel=stylesheet href=style4.css />
+    <link rel=stylesheet href=style5.css />
+    <link rel="stylesheet" href="cart.css">
+    
 
     </head>
     <body>
+ <header class="navbar-container">
+    <a href="#" class="logo1">
+      <img src="image/logo rudra.png" alt="company logo" width="70">
+    </a>
+    <nav id="navbar">
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="./shop.html">Bath & Body</a></li>
+      <li><a href="">Skin</a></li>
+      <li><a href="">Hair</a></li>
+      <li><a href="./blog.html">Holistic Well-being</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+      <li class="close-btn" onclick="toggleMenu()">✖</li>
+    </nav>
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+  </header>
 
-        <section id="header">
-            <a href="#"><img src="img/logoo_1_100x76-removebg-preview.png" class="logo"></a>
-            <div>
-                <ul id="navbar">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="shop.html">Shop</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    
-       
-       
-       
-        </section>
 
-
-
-        <footer class="section-p1">
-            <div class="col">
-                <img class="logo" src="img/logoo_1_100x76-removebg-preview.png">
-                <h4>Contact</h4>
-                <p><strong>Address: </strong> Street XYZ State Country</p>
-                <p><strong>Phone: </strong> +0123456789</p>
-                <p><strong>Hours: </strong> 09:00-17:00 Mon-Fri</p>
-                <div class="follow">
-                    <h4>Follow Us</h4>
-                    <div class="icon">
-                        <i class="fab fa-facebook-f"></i>
-                        <i class="fab fa-twitter"></i>
-                        <i class="fab fa-instagram"></i>
-                        <i class="fab fa-pinterest-p"></i>
-                        <i class="fab fa-youtube"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-            <h4>About</h4>
-            <a href="#">About Us</a>
-            <a href="#">Delivery Information</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms & Conditions</a>
-            <a href="#">Contact Us</a>
+      <!-- product  -->
+       <div class="cart-container">
+    <h2>Shopping Cart</h2>
+    <div class="cart">
+      <div class="cart-items">
+        <!-- Item 1 -->
+        <div class="cart-item">
+          <img src="item1.jpg" alt="Product Image" />
+          <div class="item-details">
+            <h3>Product Name</h3>
+            <p>Price: $50.00</p>
+            <label>Qty:
+              <input type="number" value="1" min="1" />
+            </label>
+            <button class="remove-btn">Remove</button>
+          </div>
         </div>
 
-        <div class="col">
-            <h4>My Account</h4>
-            <a href="#">Sign In</a>
-            <a href="#">View Cart</a>
-            <a href="#">Wishlists</a>
-            <a href="#">Order Tracking</a>
-            <a href="#">Help / Support</a>
-        </div>
+        <!-- Add more cart-item blocks as needed -->
+      </div>
 
-        <div class="col install">
-            <h4>Install App</h4>
-            <p>From App Store or Google Play</p>
-            <div class="row">
-                <img src="img/playapp/App-Store-Button-transparent.png" class="app-icon">
-                <img src="img/playapp/play.png" class="app-icon">
-            </div>
-            <p>Secured Payment Gateways</p>
-            <img src="img/Logos-01.png" class="payment-gateway" alt="">
-        </div>
-        
-
-        
-        </footer>
-        <div class="copyright">
-            <p>© 2023, Bloomz Beauty E-Commerce Store for CS50x</p>
-        </div>
+      <div class="cart-summary">
+        <h3>Summary</h3>
+        <p>Subtotal: $50.00</p>
+        <p>Tax (10%): $5.00</p>
+        <h4>Total: $55.00</h4>
+        <button class="checkout-btn">Proceed to Checkout</button>
+      </div>
+    </div>
+  </div>
             
 
 
 
-        
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+    <h4>About Us</h4>
+    <p>Your Company offers a range of high-quality body care products designed to enhance your well-being. With a commitment to using natural ingredients, our products are carefully crafted to meet the needs of your skin and body, providing effective solutions for every skin type.</p>
+</div>
+
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="/new-website/shop.html">Bath & Body</a></li>
+                    <li><a href="/new-website//blog.html">Holistic Well-being</a></li>
+                     <li><a href="/new-website/about.html">About</a></li>
+                    <li><a href="/new-website/contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <ul>
+                    <li>Phone: +91 9876543210</li>
+                    <li>Email: info@yourcompany.com</li>
+                    <li>Address: 123 Business Ave, City, Country</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#" class="social-icon" target="_blank">
+                        <img src="./img/Facebook is one of the most popular social media….jpg" alt="Facebook">
+                    </a>
+                    <a href="#" class="social-icon" target="_blank">
+                        <img src="./img/Twitter X Logo.jpg" alt="Twitter">
+                    </a>
+                    <a href="#" class="social-icon" target="_blank">
+                        <img src="./img/Free Vector _ Instagram icon.jpg" alt="Instagram">
+                    </a>
+                    <a href="#" class="social-icon" target="_blank">
+                        <img src="./img/3d1a3731-6579-4c08-a834-600a38ffb25a.jpg" alt="LinkedIn">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Your Company. All rights reserved.</p>
+        </div>
+    </footer>
+
+
         <script src="script.js"></script>
         <script src="main.js"></script>
     </body>
